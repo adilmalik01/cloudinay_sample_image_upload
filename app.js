@@ -18,6 +18,12 @@ let uploadImgBtn = document.querySelector("#uploadImgBtn")
 let filesInform;
 let fileName;
 
+// let input = document.querySelector("#imageInp")
+// let uploadImgBtn = document.querySelector("#uploadImgBtn")
+// let filesInform;
+// let fileName;
+
+
 const getFile = (e) => {
     filesInform = e.target.files[0]
     fileName = filesInform.name
